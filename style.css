@@ -1,0 +1,55 @@
+.container{
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+main{
+  background-color: #F1f5f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:700px;
+  height:350px
+
+}
+button{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 5px 10px;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+  color: #1E90FF;
+}
+p{
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+header{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ width: 500px;
+}
+div a{
+ margin: 0px 10px;
+ font-weight: bold;
+ font-size: 20px;
+}  
+div a:hover{
+ color: #1E90FF;
+ cursor: pointer;
+} 
+.name{
+  color: #1E90FF;
+}
+.active{
+  color: #1E90FF;
+}
